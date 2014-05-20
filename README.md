@@ -11,6 +11,7 @@ Kullanmanız gereken Android SDK modülleri:
 -	SDK Build Tools (18.0.1)
 -	SDT Platform Tools (19)
 -	SDK Platform  İlgili Android versiyonuna ait SDK platformu. Kitabın yazıldığı sırada en son versiyon olan 4.3’ü ve kullanacağınız diğer Android versiyonlarını indirebilirsiniz.
+-	Ketai Kütüphanesi: https://code.google.com/p/ketai/downloads/list
 
 Örnekler Asus TF101 tablet ve Samsung Galaxy Note 2 cihazlarında test edildi. Cihazınızın ekran boyutuna göre kodlar içerisinde değişiklikler yapmanız gerekebilir.
 
