@@ -31,7 +31,6 @@ void setup () {
     RTC.adjust(DateTime(__DATE__, __TIME__));    
     Serial.println(__TIME__);
 
-   }
 }
 
 void loop () {
