@@ -74,8 +74,6 @@ void printDirectory(File dir, int numTabs) {
      
      File entry =  dir.openNextFile();
      if (! entry) {
-       // no more files
-       //Serial.println("**nomorefiles**");
        break;
      }
      for (uint8_t i=0; i<numTabs; i++) {
@@ -86,7 +84,6 @@ void printDirectory(File dir, int numTabs) {
        Serial.println("/");
        printDirectory(entry, numTabs+1);
      } else {
-       // files have sizes, directories do not
        Serial.print("\t\t");
        Serial.println(entry.size(), DEC);
      }
